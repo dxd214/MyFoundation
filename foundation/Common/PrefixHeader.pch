@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  foundation
+//
+//  Created by ios on 15-1-5.
+//  Copyright (c) 2015年 716team. All rights reserved.
+//
+
+#ifndef foundation_PrefixHeader_pch
+#define foundation_PrefixHeader_pch
+
+
+/*
+ 在PrefixHeader里面修改地址:工程名/PrefixHeader.pch
+ */
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// 常用的类库
+#import "common.h"
+
+//--------------第三方框架-----------
+#import "BaseModel.h"//Json解析
+#import "DataService.h"//解析网络请求
+#import "AFNetworking.h"//网络请求
+#import "MBProgressHUD.h"//正在加载
+#import "UIViewExt.h"//布局
+#import "MJRefresh.h"//下拉刷新
+#import "WXLabel.h"//自适应高度，正则表达式识别
+#import "DDProgressView.h"//下载进度条
+#endif
